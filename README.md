@@ -29,3 +29,4 @@ This project implements a file storage system through REST APIs to perform CRUD 
 4) Open a new terminal in project's root directory and execte following command to deploy file storage app.
    ```docker-compose up file-storage-system```
 5) Access swagger UI through following URL: http://localhost:8085/swagger-ui/index.html
+6) Use credentials ```admin/admin``` to login.
