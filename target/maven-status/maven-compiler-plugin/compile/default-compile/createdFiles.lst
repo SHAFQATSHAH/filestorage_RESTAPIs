@@ -1,0 +1,11 @@
+org\metadata\filestorage\controller\FileStorageController.class
+org\metadata\filestorage\service\FileStorageService.class
+org\metadata\filestorage\jpa\FileStorageRepo.class
+org\metadata\filestorage\pojo\FileDTO.class
+org\metadata\filestorage\FileStorageSystemApplication.class
+org\metadata\filestorage\service\DBFileStorageService.class
+org\metadata\filestorage\config\SwaggerConfig.class
+org\metadata\filestorage\pojo\ProcessedFile.class
+org\metadata\filestorage\security\BasicAuthSecurity.class
+org\metadata\filestorage\jpa\BinaryFileEntity.class
+org\metadata\filestorage\common\FileStorageConstants.class

@@ -1,0 +1,4 @@
+org\metadata\filestorage\jpa\FileStorageRepoTest.class
+org\metadata\filestorage\service\FileStorageServiceTest.class
+org\metadata\filestorage\FileStorageSystemApplicationTests.class
+org\metadata\filestorage\controller\FileStorageControllerTest.class

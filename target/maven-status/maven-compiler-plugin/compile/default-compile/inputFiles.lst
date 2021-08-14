@@ -1,0 +1,11 @@
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\pojo\ProcessedFile.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\service\FileStorageService.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\config\SwaggerConfig.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\controller\FileStorageController.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\service\DBFileStorageService.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\security\BasicAuthSecurity.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\FileStorageSystemApplication.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\jpa\BinaryFileEntity.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\pojo\FileDTO.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\common\FileStorageConstants.java
+D:\DEV\filestorage\src\main\java\org\metadata\filestorage\jpa\FileStorageRepo.java

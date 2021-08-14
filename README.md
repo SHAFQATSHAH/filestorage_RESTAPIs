@@ -1,0 +1,31 @@
+This project implements a file storage system by providing REST APIS to perform CRUD operations.
+
+Technology Stack:-
+*) Java 11
+*) Spring Boot 2.5.3
+*) Maven
+*) Docker
+*) MySQL 8
+*) Swagger 2
+*) jUnit
+
+Features:-
+*) Perform CRUD operations on all types of files.
+*) Upto 1 GB file size is supported.
+*) File versioning is maintained when updating files. 
+*) Swagger is used to document and execute REST APIs.
+
+Prerequisites:-
+1) Docker, Maven and Java should be installed on environment to build this project.
+
+Installation/Setup:-
+1) Clone repository.
+2) Browse to cloned repository's root directory and build project using following command in terminal.
+   "mvn clean install -DskipTests=true"
+   Note: Docker image will be built with image tag "filestorage:1.0.0"
+3) Execute following command to deploy MYSQL container.
+   "docker-compose up mysql-db"
+   Wait for few minutes for MYSQL to deploy.
+4) Open a new terminal in project's root directory and execte following command to deploy file storage app.
+   "docker-compose up file-storage-system"
+5) Access swagger UI through following URL: http://localhost:8085/swagger-ui/index.html

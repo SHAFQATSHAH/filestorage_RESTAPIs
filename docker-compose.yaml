@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+
+  mysql-db:
+    image: mysql:8.0.26
+    hostname: mysql-db
+    container_name: mysql-db
+    command: --default-authentication-plugin=mysql_native_password --max_allowed_packet=1000MB 
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE=filestorage_db
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=root
+      
+  file-storage-system:
+    image: filestorage:1.0.0
+    hostname: file-storage-system
+    container_name: file-storage-system
+    restart: on-failure
+    depends_on:
+      - mysql-db
+    ports:
+      - 8085:8085
+    environment:
+      - SERVER_PORT=8085
+      - DATABASE_HOST=mysql-db
+      - DATABASE_USERNAME=admin
+      - DATABASE_PASSWORD=admin
+      - DATABASE_NAME=filestorage_db
+      - DATABASE_PORT=3306
+      - MULTIPART_MAX_FILE_SIZE=1000MB
+      - MULTIPART_MAX_REQUEST_SIZE=1000MB
+    links:
+      - "mysql-db:mysql-db"
