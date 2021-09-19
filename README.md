@@ -9,12 +9,6 @@ This project implements a file storage system through REST APIs to perform CRUD 
 * Swagger 2
 * jUnit
 
-### Features:-
-* Perform CRUD operations on all types of files.
-* Upto 1 GB file size is supported.
-* File versioning is maintained when updating files. 
-* Swagger is used to document and execute REST APIs.
-
 ### Prerequisites:-
 1) Docker, Maven and Java should be installed on environment to build this project.
 
